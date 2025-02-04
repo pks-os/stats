@@ -18,7 +18,7 @@ open class NotificationsWrapper: NSStackView {
     private var ids: [String: Bool?] = [:]
     
     public init(_ module: ModuleType, _ ids: [String] = []) {
-        self.module = module.rawValue
+        self.module = module.stringValue
         super.init(frame: NSRect.zero)
         self.initIDs(ids)
         
@@ -60,6 +60,18 @@ open class NotificationsWrapper: NSStackView {
             self.showNotification(id: id, title: title, subtitle: subtitle)
             self.ids[id] = true
         }
+    }
+    
+    public func newNotification(id rid: String, title: String, subtitle: String? = nil) {
+        let id = "Stats_\(self.module)_\(rid)"
+        
+        if self.ids[id] != nil {
+            removeNotification(id)
+            self.ids[id] = nil
+        }
+        
+        self.showNotification(id: id, title: title, subtitle: subtitle)
+        self.ids[id] = true
     }
     
     public func hideNotification(_ rid: String) {

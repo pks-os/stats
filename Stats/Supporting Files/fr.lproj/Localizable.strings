@@ -75,6 +75,7 @@
 "Name" = "Nom";
 "Format" = "Format";
 "Turn off" = "Éteindre";
+"Normal" = "Normal";
 "Warning" = "Avertissement";
 "Critical" = "Critique";
 "Usage" = "Utilisation";
@@ -87,6 +88,14 @@
 "Read" = "Read";
 "Write" = "Write";
 "Frequency" = "Frequency";
+"1 sec" = "1 sec";
+"2 sec" = "2 sec";
+"3 sec" = "3 sec";
+"5 sec" = "5 sec";
+"10 sec" = "10 sec";
+"15 sec" = "15 sec";
+"30 sec" = "30 sec";
+"60 sec" = "60 sec";
 
 // Setup
 "Stats Setup" = "Configuration de Stats";
@@ -129,6 +138,7 @@
 "Open dashboard" = "Ouvrir le tableau de bord";
 "No notifications available in this module" = "Aucune modification disponible pour ce module";
 "Open Calendar" = "Open Calendar";
+"Toggle the module" = "Toggle the module";
 
 // Application settings
 "Update application" = "Mettre à jour l'application";
@@ -194,6 +204,8 @@
 "Static width" = "Largeur fixe";
 "Tachometer widget" = "Tachymètre";
 "State widget" = "Widget d'état";
+"Text widget" = "Text widget";
+"Battery details widget" = "Battery details widget";
 "Show symbols" = "Afficher les symboles";
 "Label widget" = "Étiquette";
 "Number of reads in the chart" = "Nombre de lectures sur le graphique";
@@ -224,6 +236,8 @@
 "No options to configure for the popup in this module" = "Aucune option à configurer pour la fenêtre contextuelle dans ce module";
 "Process" = "Processus";
 "Kill process" = "Interrompre le processus";
+"Keyboard shortcut" = "Keyboard shortcut";
+"Listening..." = "Listening...";
 
 // Modules
 "Number of top processes" = "Nombre de processus principaux";
@@ -232,6 +246,7 @@
 "Chart color" = "Couleur du graphique";
 "Main chart scaling" = "Main chart scaling";
 "Scale value" = "Valeur de l'échelle";
+"Text widget value" = "Text widget value";
 
 // CPU
 "CPU usage" = "Utilisation du CPU";
@@ -325,6 +340,7 @@
 "Write speed" = "Écritures";
 "Read speed" = "Lectures";
 "Drives" = "Drives";
+"SMART data" = "SMART data";
 
 // Sensors
 "Temperature unit" = "Unité de température";
@@ -390,6 +406,8 @@
 "Latency" = "Latence";
 "Upload speed" = "Envoi";
 "Download speed" = "Téléchargement";
+"Address" = "Address";
+"WiFi network" = "WiFi network";
 
 // Battery
 "Level" = "Niveau";
@@ -440,6 +458,9 @@
 "Local" = "Local";
 "Calendar" = "Calendrier";
 "Local time" = "Heure locale";
+"Add new clock" = "Add new clock";
+"Delete selected clock" = "Delete selected clock";
+"Help with datetime format" = "Help with datetime format";
 
 // Colors
 "Based on utilization" = "Basé sur l'utilisation";

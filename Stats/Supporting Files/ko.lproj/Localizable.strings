@@ -75,6 +75,7 @@
 "Name" = "이름";
 "Format" = "형식";
 "Turn off" = "끄기";
+"Normal" = "Normal";
 "Warning" = "Warning";
 "Critical" = "Critical";
 "Usage" = "Usage";
@@ -87,6 +88,14 @@
 "Read" = "Read";
 "Write" = "Write";
 "Frequency" = "Frequency";
+"1 sec" = "1 sec";
+"2 sec" = "2 sec";
+"3 sec" = "3 sec";
+"5 sec" = "5 sec";
+"10 sec" = "10 sec";
+"15 sec" = "15 sec";
+"30 sec" = "30 sec";
+"60 sec" = "60 sec";
 
 // Setup
 "Stats Setup" = "Stats 설정";
@@ -129,6 +138,7 @@
 "Open dashboard" = "대시보드 열기";
 "No notifications available in this module" = "이 모듈에서 사용할 수 있는 알림이 없습니다";
 "Open Calendar" = "캘린더 열기";
+"Toggle the module" = "Toggle the module";
 
 // Application settings
 "Update application" = "애플리케이션 업데이트";
@@ -194,6 +204,8 @@
 "Static width" = "너비 고정";
 "Tachometer widget" = "반원 도표";
 "State widget" = "상태 위젯";
+"Text widget" = "Text widget";
+"Battery details widget" = "Battery details widget";
 "Show symbols" = "기호 표시";
 "Label widget" = "레이블 위젯";
 "Number of reads in the chart" = "도표의 행 크기";
@@ -224,6 +236,8 @@
 "No options to configure for the popup in this module" = "이 모듈은 구성할 팝업 설정이 없습니다.";
 "Process" = "Process";
 "Kill process" = "Kill process";
+"Keyboard shortcut" = "Keyboard shortcut";
+"Listening..." = "Listening...";
 
 // Modules
 "Number of top processes" = "상위 프로세스 수";
@@ -232,6 +246,7 @@
 "Chart color" = "도표 색상";
 "Main chart scaling" = "Main chart scaling";
 "Scale value" = "Scale value";
+"Text widget value" = "Text widget value";
 
 // CPU
 "CPU usage" = "CPU 사용량";
@@ -325,6 +340,7 @@
 "Write speed" = "Write";
 "Read speed" = "Read";
 "Drives" = "Drives";
+"SMART data" = "SMART data";
 
 // Sensors
 "Temperature unit" = "온도 단위";
@@ -390,6 +406,8 @@
 "Latency" = "Latency";
 "Upload speed" = "Upload";
 "Download speed" = "Download";
+"Address" = "Address";
+"WiFi network" = "WiFi network";
 
 // Battery
 "Level" = "잔량";
@@ -440,6 +458,9 @@
 "Local" = "현지시각";
 "Calendar" = "Calendar";
 "Local time" = "Local time";
+"Add new clock" = "Add new clock";
+"Delete selected clock" = "Delete selected clock";
+"Help with datetime format" = "Help with datetime format";
 
 // Colors
 "Based on utilization" = "사용률 기준";

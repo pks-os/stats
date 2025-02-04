@@ -75,6 +75,7 @@
 "Name" = "Nome";
 "Format" = "Formato";
 "Turn off" = "Disattiva";
+"Normal" = "Normal";
 "Warning" = "Avviso";
 "Critical" = "Critico";
 "Usage" = "Utilizzo";
@@ -87,6 +88,14 @@
 "Read" = "Lettura";
 "Write" = "Scrittura";
 "Frequency" = "Frequenza";
+"1 sec" = "1 sec";
+"2 sec" = "2 sec";
+"3 sec" = "3 sec";
+"5 sec" = "5 sec";
+"10 sec" = "10 sec";
+"15 sec" = "15 sec";
+"30 sec" = "30 sec";
+"60 sec" = "60 sec";
 
 // Setup
 "Stats Setup" = "Configurazione Stats";
@@ -110,7 +119,7 @@
 "Share anonymous telemetry data" = "Condividi dati anonimi di telemetria";
 "Do not share anonymous telemetry data" = "Non condividere dati anonimi di telemetria";
 "The configuration is completed" = "Configurazione completata";
-"finish_setup_message" = "È tutto pronto! \n Stats è un software open source gratuito, e lo rimarrà per sempre. \n Se ti piace, dacci il tuo supporto: è sempre ben accetto!";
+"finish_setup_message" = "È tutto pronto!\nStats è un software open source gratuito, e lo rimarrà per sempre.\nSe ti piace, dacci il tuo supporto: è sempre ben accetto!";
 
 // Alerts
 "New version available" = "Nuova versione disponibile";
@@ -118,7 +127,7 @@
 "Successfully updated" = "Aggiornato con successo";
 "Stats was updated to v" = "Stats è stato aggiornato alla v%0";
 "Reset settings text" = "Tutte le impostazioni saranno resettate e l'applicazione sarà riavviata. Sei sicuro di volerlo fare?";
-"Support text" = "Grazie per aver usato Stats! Il mantenimento e il miglioramento di questo progetto open-source richiede tempo e risorse. Il vostro sostegno ci aiuta a continuare a fornire un'applicazione gratuita e affidabile per tutti.\n}Se trovate Stats utile, prendete in considerazione l'idea di dare un contributo. Ogni piccolo contributo è utile!";
+"Support text" = "Grazie per aver usato Stats!\n\nIl mantenimento e il miglioramento di questo progetto open-source richiede tempo e risorse. Il vostro sostegno ci aiuta a continuare a fornire un'applicazione gratuita e affidabile per tutti.\n\nSe trovate Stats utile, prendete in considerazione l'idea di dare un contributo. Ogni piccolo contributo è utile!";
 
 // Settings
 "Open Activity Monitor" = "Apri Monitoraggio Attività";
@@ -129,6 +138,7 @@
 "Open dashboard" = "Apri la dashboard";
 "No notifications available in this module" = "Notifiche non disponibili per questo modulo";
 "Open Calendar" = "Apri Calendario";
+"Toggle the module" = "Toggle the module";
 
 // Application settings
 "Update application" = "Aggiorna applicazione";
@@ -194,6 +204,8 @@
 "Static width" = "Larghezza fissa";
 "Tachometer widget" = "Tachimetro";
 "State widget" = "Widget di stato";
+"Text widget" = "Text widget";
+"Battery details widget" = "Battery details widget";
 "Show symbols" = "Mostra simboli";
 "Label widget" = "Etichetta widget";
 "Number of reads in the chart" = "Numero di letture nel grafico";
@@ -224,6 +236,8 @@
 "No options to configure for the popup in this module" = "Nessuna opzione da configurare per le notifiche in questo modulo";
 "Process" = "Processo";
 "Kill process" = "Chiudi processo";
+"Keyboard shortcut" = "Keyboard shortcut";
+"Listening..." = "Listening...";
 
 // Modules
 "Number of top processes" = "Numero di processi principali";
@@ -232,6 +246,7 @@
 "Chart color" = "Colore grafico";
 "Main chart scaling" = "Scala del grafico principale";
 "Scale value" = "Valore scala";
+"Text widget value" = "Text widget value";
 
 // CPU
 "CPU usage" = "Utilizzo CPU";
@@ -325,6 +340,7 @@
 "Write speed" = "Lettura";
 "Read speed" = "Scrittura";
 "Drives" = "Drives";
+"SMART data" = "SMART data";
 
 // Sensors
 "Temperature unit" = "Unità di temperatura";
@@ -390,6 +406,8 @@
 "Latency" = "Latenza";
 "Upload speed" = "Upload";
 "Download speed" = "Download";
+"Address" = "Address";
+"WiFi network" = "WiFi network";
 
 // Battery
 "Level" = "Livello";
@@ -440,6 +458,9 @@
 "Local" = "Locale";
 "Calendar" = "Calendario";
 "Local time" = "Ora locale";
+"Add new clock" = "Add new clock";
+"Delete selected clock" = "Delete selected clock";
+"Help with datetime format" = "Help with datetime format";
 
 // Colors
 "Based on utilization" = "Basato sull'utilizzo";

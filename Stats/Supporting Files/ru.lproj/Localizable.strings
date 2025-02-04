@@ -75,6 +75,7 @@
 "Name" = "Название";
 "Format" = "Формат";
 "Turn off" = "Выключить";
+"Normal" = "Нормальный";
 "Warning" = "Предупреждение";
 "Critical" = "Критический";
 "Usage" = "Использование";
@@ -87,6 +88,14 @@
 "Read" = "Чтение";
 "Write" = "Запись";
 "Frequency" = "Частота";
+"1 sec" = "1 сек";
+"2 sec" = "2 сек";
+"3 sec" = "3 сек";
+"5 sec" = "5 сек";
+"10 sec" = "10 сек";
+"15 sec" = "15 сек";
+"30 sec" = "30 сек";
+"60 sec" = "60 сек";
 
 // Setup
 "Stats Setup" = "Настройки Stats";
@@ -129,6 +138,7 @@
 "Open dashboard" = "Открыть dashboard";
 "No notifications available in this module" = "В этом модуле нет доступных уведомлений";
 "Open Calendar" = "Открыть календарь";
+"Toggle the module" = "Переключить модуль";
 
 // Application settings
 "Update application" = "Обновить приложение";
@@ -194,6 +204,8 @@
 "Static width" = "Статическая ширина";
 "Tachometer widget" = "Тахометр";
 "State widget" = "Состояние";
+"Text widget" = "Текст";
+"Battery details widget" = "Виджет сведений о батарее";
 "Show symbols" = "Показать символы";
 "Label widget" = "Этикетка";
 "Number of reads in the chart" = "Количество чтений на графике";
@@ -224,6 +236,8 @@
 "No options to configure for the popup in this module" = "Нет параметров для настройки всплывающего окна в этом модуле";
 "Process" = "Процесс";
 "Kill process" = "Завершить процесс";
+"Keyboard shortcut" = "Сочетание клавиш";
+"Listening..." = "Слушание...";
 
 // Modules
 "Number of top processes" = "Количество процессов";
@@ -232,6 +246,7 @@
 "Chart color" = "Цвет графика";
 "Main chart scaling" = "Масштабирование основного графика";
 "Scale value" = "Значение масштаба";
+"Text widget value" = "Значение текстового виджета";
 
 // CPU
 "CPU usage" = "Использование процессора";
@@ -325,6 +340,7 @@
 "Write speed" = "Запись";
 "Read speed" = "Чтение";
 "Drives" = "Диски";
+"SMART data" = "SMART данные";
 
 // Sensors
 "Temperature unit" = "Единица измерения температуры";
@@ -390,6 +406,8 @@
 "Latency" = "Задержка";
 "Upload speed" = "Выгрузка";
 "Download speed" = "Загрузка";
+"Address" = "Адрес";
+"WiFi network" = "Сеть Wi-Fi";
 
 // Battery
 "Level" = "Уровень заряда";
@@ -440,6 +458,9 @@
 "Local" = "Локальный";
 "Calendar" = "Календарь";
 "Local time" = "Местное время";
+"Add new clock" = "Добавить новые часы";
+"Delete selected clock" = "Удалить выбранные часы";
+"Help with datetime format" = "Помощь с форматом даты и времени";
 
 // Colors
 "Based on utilization" = "На основе использования";

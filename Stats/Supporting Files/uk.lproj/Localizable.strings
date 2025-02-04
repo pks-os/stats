@@ -75,6 +75,7 @@
 "Name" = "Назва";
 "Format" = "Формат";
 "Turn off" = "Вимкнути";
+"Normal" = "Нормальний";
 "Warning" = "Попереджнння";
 "Critical" = "Критичний";
 "Usage" = "Використання";
@@ -87,6 +88,14 @@
 "Read" = "Зчитування";
 "Write" = "Запис";
 "Frequency" = "Частота";
+"1 sec" = "1 сек";
+"2 sec" = "2 сек";
+"3 sec" = "3 сек";
+"5 sec" = "5 сек";
+"10 sec" = "10 сек";
+"15 sec" = "15 сек";
+"30 sec" = "30 сек";
+"60 sec" = "60 сек";
 
 // Setup
 "Stats Setup" = "Налаштування";
@@ -129,6 +138,7 @@
 "Open dashboard" = "Відкрити dashboard";
 "No notifications available in this module" = "У цьому модулі немає повідомлень";
 "Open Calendar" = "Відкрити календар";
+"Toggle the module" = "Перемкніть модуль";
 
 // Application settings
 "Update application" = "Оновити програму";
@@ -194,6 +204,8 @@
 "Static width" = "Статична ширина";
 "Tachometer widget" = "Тахометр";
 "State widget" = "Стан";
+"Text widget" = "Текст";
+"Battery details widget" = "Віджет даних про акумулятор";
 "Show symbols" = "Показати символи";
 "Label widget" = "Етикетка";
 "Number of reads in the chart" = "Кількість зчитувань на діаграмі";
@@ -224,6 +236,8 @@
 "No options to configure for the popup in this module" = "У цьому модулі немає параметрів для налаштування спливаючого вікна";
 "Process" = "Процес";
 "Kill process" = "Завершити процес";
+"Keyboard shortcut" = "Комбінація клавіш";
+"Listening..." = "Слухаю...";
 
 // Modules
 "Number of top processes" = "Кількість процесів";
@@ -232,6 +246,7 @@
 "Chart color" = "Колір діаграми";
 "Main chart scaling" = "Масштабування основної діаграми";
 "Scale value" = "Значення масштабування";
+"Text widget value" = "Значення текстового віджета";
 
 // CPU
 "CPU usage" = "Використання процесора";
@@ -325,6 +340,7 @@
 "Write speed" = "Запис";
 "Read speed" = "Зчитування";
 "Drives" = "Диски";
+"SMART data" = "SMART дані";
 
 // Sensors
 "Temperature unit" = "Одиниця виміру температури";
@@ -390,6 +406,8 @@
 "Latency" = "Затримка";
 "Upload speed" = "Висилання";
 "Download speed" = "Завантаження";
+"Address" = "Адреса";
+"WiFi network" = "Мережа WiFi";
 
 // Battery
 "Level" = "Рівень заряду";
@@ -440,6 +458,9 @@
 "Local" = "Місцевий";
 "Calendar" = "Календар";
 "Local time" = "Місцевий час";
+"Add new clock" = "Додати новий годинник";
+"Delete selected clock" = "Видалити вибраний годинник";
+"Help with datetime format" = "Довідка з форматом дати й часу";
 
 // Colors
 "Based on utilization" = "На основі використання";

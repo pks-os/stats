@@ -13,8 +13,6 @@ import Cocoa
 import Kit
 
 internal class Popup: PopupWrapper {
-    private var title: String
-    
     private var uploadContainerView: NSView? = nil
     private var uploadView: NSView? = nil
     private var uploadValue: Int64 = 0
@@ -105,9 +103,7 @@ internal class Popup: PopupWrapper {
     }
     
     public init(_ module: ModuleType) {
-        self.title = module.rawValue
-        
-        super.init(frame: NSRect(x: 0, y: 0, width: Constants.Popup.width, height: 0))
+        super.init(module, frame: NSRect(x: 0, y: 0, width: Constants.Popup.width, height: 0))
         
         self.spacing = 0
         self.orientation = .vertical
@@ -392,7 +388,11 @@ internal class Popup: PopupWrapper {
                 }
                 
                 if let interface = value.interface {
-                    self.interfaceField?.stringValue = "\(interface.displayName) (\(interface.BSDName))"
+                    self.interfaceField?.stringValue = "\(interface.displayName) (\(interface.BSDName)"
+                    if let cc = value.wifiDetails.countryCode {
+                        self.interfaceField?.stringValue += ", \(cc)"
+                    }
+                    self.interfaceField?.stringValue += ")"
                     self.macAddressField?.stringValue = interface.address
                 } else {
                     self.interfaceField?.stringValue = localizedString("Unknown")
@@ -466,7 +466,10 @@ internal class Popup: PopupWrapper {
                             self.recalculateHeight()
                         }
                         if self.publicIPv4Field?.stringValue != addr {
-                            self.publicIPv4Field?.stringValue = (value.wifiDetails.countryCode != nil) ? "\(addr) (\(value.wifiDetails.countryCode!))" : addr
+                            self.publicIPv4Field?.stringValue = addr
+                            if let cc = value.raddr.countryCode {
+                                self.publicIPv4Field?.stringValue += " (\(cc))"
+                            }
                         }
                     } else if view.superview != nil {
                         view.removeFromSuperview()
@@ -562,6 +565,13 @@ internal class Popup: PopupWrapper {
     
     public override func settings() -> NSView? {
         let view = SettingsContainerView()
+        
+        view.addArrangedSubview(PreferencesSection([
+            PreferencesRow(localizedString("Keyboard shortcut"), component: KeyboardShartcutView(
+                callback: self.setKeyboardShortcut,
+                value: self.keyboardShortcut
+            ))
+        ]))
         
         view.addArrangedSubview(PreferencesSection([
             PreferencesRow(localizedString("Color of download"), component: selectView(
